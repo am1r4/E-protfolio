@@ -32,7 +32,7 @@ a {
     border: 3px solid #000000;
     border-radius: 30px;
     display: flex;
-    overflow: scroll;
+    overflow: hidden;
   }
 
   .navbar {
@@ -123,17 +123,6 @@ a {
   }
 
 
-  #bg1 {
-    position: absolute;
-    width: auto;
-    height: 100px;
-    left: -01%;
-    right: 50%;
-    top: 3%;
-    bottom: 88%;
-    opacity: 60%;
-  }
-
 .blog {
     box-sizing: border-box;
     position: absolute;
@@ -204,3 +193,102 @@ h5 {
     font-size: 20px;
     line-height: 24px;
 }
+
+#bg1 {
+    position: absolute;
+    width: auto;
+    height: 100px;
+    left: -01%;
+    right: 50%;
+    top: 3%;
+    bottom: 88%;
+    opacity: 60%;
+  }
+
+  #bg2 {
+    position: absolute;
+    width: auto;
+    height: 130px;
+    left: 12%;
+    right: 80%;
+    top: 400px;
+    bottom: 57%;
+    opacity: 60%;
+  }
+
+  #bg3 {
+    position: absolute;
+    width: auto;
+    height: 70px;
+    left: 47.32%;
+    right: 48.51%;
+    top: 6%;
+    bottom: 89.7%;
+    opacity: 60%;
+  }
+
+  #bg4 {
+    position: absolute;
+    width: auto;
+    height: 110px;
+    left: 96%;
+    right: 0%;
+    top: 7%;
+    bottom: 83%;
+    opacity: 60%;
+  }
+
+  #bg5 {
+    position: absolute;
+    width: auto;
+    height: 100px;
+    left: 0%;
+    right: 91.58%;
+    top: 85.89%;
+    bottom: 0%;
+    opacity: 60%;
+  }
+
+  #bg6 {
+    position: absolute;
+    width: auto;
+    height: 90px;
+    left: 29%;
+    right: 64.94%;
+    top: 78%;
+    bottom: 30%;
+    opacity: 60%;
+  }
+
+  #bg7 {
+    position: absolute;
+    width: auto;
+    height: 100px;
+    left: 64%;
+    right: 31.15%;
+    top: 75.05%;
+    bottom: 30%;
+    opacity: 60%;
+  }
+
+  #bg8 {
+    position: absolute;
+    width: auto;
+    height: 70px;
+    left: 89.41%;
+    right: 7.49%;
+    top: 93.52%;
+    bottom: 11.53%;
+    opacity: 60%;
+  }
+  
+  #bg9 {
+    position: absolute;
+    width: auto;
+    height: 60px;
+    left: 57%;
+    right: 37.04%;
+    top: 100%;
+    bottom: 0.11%;
+    opacity: 60%;
+  }
