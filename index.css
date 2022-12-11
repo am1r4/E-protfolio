@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    border: 2px solid color black;
+    border-style: solid;
+    border-radius: 2px;
+    width: 1512px;
+    height: 48px;
+    border: 2px solid color black;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A18276;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+}
+
+.nav li {
+    list-style-type: none;
+    display: inline;
+    float: left;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    margin-top: 28px;
+  }
+
+#logo {
+   width: 60px;
+   padding-top: 0px;
+   padding: 0;
+   margin-right: 5px;
+   margin-bottom: 0px;
+}
+
+  li img {
+    width: 30px;
+    position: absolute;
+    top: 4px;
+  }
+
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+  }
+
+  .right {
+    margin-right: 720px;
+  }
+
+
+
+  body {
+    width: 1512px;
+    height: 982px;
+    background: #F5CAC3;
+  }
+  
+section {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1455px;
+    height: 900px;
+    left: 28px;
+    top: 66px;
+    background: #B9D2B2;
+    border: 3px solid #000000;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+}
+
+.main {
+position: absolute;
+width: 600px;
+height: 271px;
+left: 62px;
+top: 270px;
+font-family: "Bright DEMO";
+font-style: normal;
+font-weight: 100;
+font-size: 110px;
+line-height: 150px;
+letter-spacing: 0.029em;
+
+color: #FFFFFF;
+
+
+}
+
+.art {
+    position: absolute;
+    width: 692px;
+    height: 634px;
+    left: 728px;
+    top: 133px;
+    border-radius: 52px;
+}
+
+#button {
+    position: absolute;
+    width: 362px;
+    height: 99px;
+    left: 63px;
+    top: 350px;
+    border-radius: 70px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+    background-color: rgba(248, 237, 226, 1);
+}
+
+#button {
+  background-color: rgba(248, 237, 226, 1);
+}
+
+#button:hover {
+    color: white;
+    background-color: rgba(218, 198, 181, 1);
+}
+
