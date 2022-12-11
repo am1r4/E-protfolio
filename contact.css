@@ -95,6 +95,110 @@ a {
     overflow: hidden;
   }
 
+  h2 {
+    position: absolute;
+    width: 358px;
+    height: 75px;
+    left: 549px;
+    top: 260px;
+    font-family: 'Bright DEMO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 75px;
+    color: #FFFFFF;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    position: absolute;
+    left: 185px;
+    top: 429px; 
+    box-sizing: border-box;
+    position: absolute;
+    height: 48px;
+    display: flex;
+  }
+
+  .logosLI {
+    border: 1px #000000;
+    border: solid ;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    background-color: rgba(218, 198, 181, 1);
+    display: flex;
+    text-align: center;
+    overflow: visible;
+    justify-content: space-between;
+  }
+
+  .logosLI li {
+    list-style-type: none;
+    display: inline;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .logosLI a {
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 280px;
+  }
+  h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+  }
+
+  #twt {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left: 5px;
+    top: 30px;
+    transform: rotate(10deg)
+  }
+
+  #ig {
+    position: absolute;
+    width: 125px;
+    height: auto;
+    left: 35px;
+    top: 35px;
+  }
+
+  #bh {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    left: 24px;
+    top: 24px;
+  }
+
+  #mail {
+    position: absolute;
+    width: 125px;
+    height: auto;
+    left: 36px;
+    top: 35px;
+  }
 
   #one {
     position: absolute;

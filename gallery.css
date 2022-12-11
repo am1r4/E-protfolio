@@ -166,7 +166,6 @@ p {
 }
 
 .row {
-  border: 2px solid blue;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -213,7 +212,6 @@ p {
   }
 
   .row2 {
-    border: 2px solid green;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -264,7 +262,6 @@ p {
 }
 
 .row3 {
-    border: 2px solid orange;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -313,7 +310,6 @@ p {
 }
 
 .row4 {
-  border: 2px solid orange;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -354,6 +350,15 @@ p {
 }
 #twelv:hover {
   opacity: 0;
+}
+
+#scroll {
+  position: absolute;
+width: 100.59px;
+height: 35px;
+left: 674px;
+top: 800px;
+opacity: 65%;
 }
 
 /* position: sticky;
